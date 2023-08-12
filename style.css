@@ -1,0 +1,128 @@
+body {
+  font-size: 20px;
+  font-family: Georgia;
+  background-color: black;
+  margin-left: 0 auto;
+}
+
+input[type="button"] {
+    width: 10em;
+    height: 5em;
+    margin-left: 0 auto;
+}
+
+#board, #footer {
+  width: 30em;
+  height: 26em;
+  margin: auto;
+}
+
+.whammyPic{
+  margin-left: 2px;
+  background-image: url('./img/whammy2bw.png');
+  background-size: 4em 4em;
+  width: 4em;
+  height: 4em;
+  float: left;
+}
+
+
+#celMiddle {
+  float:left; 
+  width: 20em;
+  height:15em; 
+  color: red;
+  background-image: url("./img/logo.png");
+  background-size: 20em 15em;
+  background-repeat: no-repeat;
+  border-radius: 2em;
+  overflow: hidden;
+}
+
+#whammysContainerDiv {
+  box-sizing: border-box;
+  float: left;
+}
+
+#spins{
+  margin-top: -0.5em;
+}
+#spins p {
+  color:yellow;
+  font-size: 1em;
+  float:right;
+}
+
+#score {
+  color: red;
+  text-align: center;
+  font-size: 2em;
+  margin-top: -0.2em;
+}
+
+#spinScore {
+  float:right;
+}
+
+#startStopDiv {
+  padding-bottom: 1em;
+  text-align: center;
+  float:left;
+  margin-left: 1em;
+}
+
+.flash {
+    color: #FFF !important;
+    background: #FC79CE;
+}
+
+.celRow {
+  width: 5em;
+  height: 5em;
+  float: left;
+  background-color: gray;
+}
+
+
+.celStack {
+  width: 5em;
+  height: 5em;
+  background-color: gray;
+}
+
+.cel {
+  background-size: 4.8em 4.8em;
+  background-repeat: no-repeat;
+  border-radius: 1em;
+  border: .2em solid;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.sprite {
+  width: 46.5em;
+  height: 47em;
+  background-image: url('http://orig07.deviantart.net/7cf0/f/2013/071/2/f/press_by_designerboy7-d5xuww5.png');
+}
+
+.red {
+  margin: red .5em dotted;
+}
+
+.btn {
+  background: red;
+  background-image: -webkit-linear-gradient(top, red, red);
+  background-image: -moz-linear-gradient(top, red, red);
+  background-image: -ms-linear-gradient(top, red, red);
+  background-image: -o-linear-gradient(top, red, red);
+  background-image: linear-gradient(to bottom, red, red);
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 2em;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 1em;
+  text-decoration: none;
+  width: 4em;
+  height: 4em
+}
